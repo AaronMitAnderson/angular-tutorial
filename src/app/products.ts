@@ -1,0 +1,40 @@
+export const products = [
+  {
+    id: 1,
+    name: 'Phone XL',
+    price: 799,
+    description: 'A large phone with one of the best screens'
+  },
+  {
+    id: 2,
+    name: 'Phone Mini',
+    price: 699,
+    description: 'A small phone with one of the best cameras'
+  },
+  {
+    id: 3,
+    name: 'Phone Standard',
+    price: 299,
+    description: 'A great phone with one of the best cameras'
+  }
+];
+
+export class Product {
+  public id: number;
+  public name: string;
+  public price: number;
+  public description: string;
+
+  constructor(id: number, name: string, price: number, description: string) {
+    this.id = id;
+    this.name = name;
+    this.price = price;
+    this.description = description;
+  }
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
